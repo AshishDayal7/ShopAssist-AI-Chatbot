@@ -1,0 +1,5 @@
+{
+  "name": "ShopAssist AI",
+  "description": "An impartial, multi-brand AI shopping assistant helping users in India find the best tech products using Gemini 2.5 and function calling.",
+  "requestFramePermissions": []
+}
