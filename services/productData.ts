@@ -12,7 +12,7 @@ export const PRODUCTS: Product[] = [
     features: ["AI Camera", "Clean Android", "7 years updates", "Titan M2 Security", "Best Camera"],
     description: "The smartest smartphone with deep Gemini integration and the best still photography camera on the market.",
     imageUrl: "https://m.media-amazon.com/images/I/6170y27a7uL._AC_SL1500_.jpg",
-    affiliateLink: "https://www.amazon.in/s?k=Google+Pixel+9+Pro",
+    affiliateLink: "https://www.amazon.in/s?k=Pixel+9+Pro",
     specs: {
       screen: "6.7 inch LTPO OLED",
       processor: "Tensor G4",
@@ -31,7 +31,7 @@ export const PRODUCTS: Product[] = [
     features: ["S-Pen", "Galaxy AI", "Titanium Frame", "100x Zoom", "Nightography"],
     description: "The ultimate power user phone with a built-in stylus, incredible zoom capabilities, and a massive display.",
     imageUrl: "https://m.media-amazon.com/images/I/81vxWpPpgNL._AC_SL1500_.jpg",
-    affiliateLink: "https://www.amazon.in/dp/B0CS624C4Z",
+    affiliateLink: "https://www.amazon.in/s?k=Samsung+Galaxy+S24+Ultra",
     specs: {
       screen: "6.8 inch Dynamic AMOLED 2X",
       processor: "Snapdragon 8 Gen 3",
@@ -50,7 +50,7 @@ export const PRODUCTS: Product[] = [
     features: ["iOS Ecosystem", "Action Button", "Titanium", "FaceID", "Cinematic Video"],
     description: "Apple's flagship with the A18 Pro chip, offering seamless integration with Mac and iPad.",
     imageUrl: "https://m.media-amazon.com/images/I/71K84j2O8wL._AC_SL1500_.jpg",
-    affiliateLink: "https://www.amazon.in/dp/B0DGJ4C5HZ",
+    affiliateLink: "https://www.amazon.in/s?k=iPhone+16+Pro+Max",
     specs: {
       screen: "6.9 inch Super Retina XDR",
       processor: "A18 Pro",
@@ -69,7 +69,7 @@ export const PRODUCTS: Product[] = [
     features: ["Fast Charging", "Hasselblad Camera", "Value Flagship", "Alert Slider"],
     description: "Incredible performance for the price, featuring 80W fast charging and a great display.",
     imageUrl: "https://m.media-amazon.com/images/I/717Qo4MH97L._AC_SL1500_.jpg",
-    affiliateLink: "https://www.amazon.in/dp/B0CQPM6GJD",
+    affiliateLink: "https://www.amazon.in/s?k=OnePlus+12",
     specs: {
       screen: "6.8 inch AMOLED",
       processor: "Snapdragon 8 Gen 3",
@@ -88,7 +88,7 @@ export const PRODUCTS: Product[] = [
     features: ["Leica Optics", "Compact Flagship", "HyperOS", "Fast Charging"],
     description: "A compact powerhouse with Leica co-engineered cameras and top-tier performance.",
     imageUrl: "https://m.media-amazon.com/images/I/71657TiFeHL._AC_SL1500_.jpg",
-    affiliateLink: "https://www.amazon.in/dp/B0CX58Q6V9",
+    affiliateLink: "https://www.amazon.in/s?k=Xiaomi+14",
     specs: {
       screen: "6.36 inch LTPO OLED",
       processor: "Snapdragon 8 Gen 3",
@@ -107,7 +107,7 @@ export const PRODUCTS: Product[] = [
     features: ["Zeiss Optics", "Best Portrait Camera", "Curved Display"],
     description: "Arguably the best camera phone for portraits and low light, co-engineered with Zeiss.",
     imageUrl: "https://m.media-amazon.com/images/I/611rQWRI5eL._AC_SL1200_.jpg",
-    affiliateLink: "https://www.amazon.in/dp/B0CQYGH426",
+    affiliateLink: "https://www.amazon.in/s?k=Vivo+X100+Pro",
     specs: {
         screen: "6.78 inch AMOLED",
         processor: "Dimensity 9300",
@@ -126,7 +126,7 @@ export const PRODUCTS: Product[] = [
     features: ["Foldable", "Multitasking", "No Crease", "Premium Build"],
     description: "The best foldable experience in India right now with a nearly invisible crease.",
     imageUrl: "https://m.media-amazon.com/images/I/71M5d5-9fBL._AC_SL1500_.jpg",
-    affiliateLink: "https://www.amazon.in/dp/B0CHMLZ9B4",
+    affiliateLink: "https://www.amazon.in/s?k=OnePlus+Open",
     specs: {
         screen: "7.82 inch Flexi-fluid AMOLED",
         processor: "Snapdragon 8 Gen 2",
@@ -145,7 +145,7 @@ export const PRODUCTS: Product[] = [
     features: ["Foldable", "Compact", "Galaxy AI", "Flex Mode"],
     description: "The most stylish foldable phone that fits in any pocket, now with improved cameras and durability.",
     imageUrl: "https://m.media-amazon.com/images/I/61N+U+YtK+L._AC_SL1500_.jpg",
-    affiliateLink: "https://www.amazon.in/dp/B0D819F36W",
+    affiliateLink: "https://www.amazon.in/s?k=Samsung+Galaxy+Z+Flip6",
     specs: {
         screen: "6.7 inch Dynamic AMOLED 2X",
         processor: "Snapdragon 8 Gen 3",
@@ -183,7 +183,7 @@ export const PRODUCTS: Product[] = [
     features: ["Compact Flagship", "Galaxy AI", "7 years updates"],
     description: "A true compact flagship that doesn't compromise on power or build quality.",
     imageUrl: "https://m.media-amazon.com/images/I/71CXhVHPM0L._AC_SL1500_.jpg",
-    affiliateLink: "https://www.amazon.in/dp/B0CS5Y23W4",
+    affiliateLink: "https://www.amazon.in/s?k=Samsung+Galaxy+S24",
     specs: {
         screen: "6.2 inch Dynamic AMOLED 2X",
         processor: "Exynos 2400 / Snapdragon 8 Gen 3",
@@ -202,7 +202,7 @@ export const PRODUCTS: Product[] = [
     features: ["Dynamic Island", "USB-C", "Great Video"],
     description: "The standard iPhone choice with the Dynamic Island and USB-C convenience.",
     imageUrl: "https://m.media-amazon.com/images/I/71d7rfSl0wL._AC_SL1500_.jpg",
-    affiliateLink: "https://www.amazon.in/dp/B0CHX1W1XY",
+    affiliateLink: "https://www.amazon.in/s?k=iPhone+15",
     specs: {
         screen: "6.1 inch Super Retina XDR",
         processor: "A16 Bionic",
@@ -261,7 +261,7 @@ export const PRODUCTS: Product[] = [
     features: ["Gaming Performance", "Battery Life", "Smooth Display"],
     description: "The ultimate flagship killer offering top-tier performance at a fraction of the cost.",
     imageUrl: "https://m.media-amazon.com/images/I/71XNlmquRNL._AC_SL1500_.jpg",
-    affiliateLink: "https://www.amazon.in/dp/B0CQPLJ3QY",
+    affiliateLink: "https://www.amazon.in/s?k=OnePlus+12R",
     specs: {
         screen: "6.78 inch AMOLED ProXDR",
         processor: "Snapdragon 8 Gen 2",
@@ -280,7 +280,7 @@ export const PRODUCTS: Product[] = [
     features: ["Hardcore Gaming", "Q1 Chip", "BMW Edition"],
     description: "The default choice for mobile gamers in India. Incredible raw power.",
     imageUrl: "https://m.media-amazon.com/images/I/619f09kK7tL._AC_SL1500_.jpg",
-    affiliateLink: "https://www.amazon.in/dp/B0CNWNKD6G",
+    affiliateLink: "https://www.amazon.in/s?k=iQOO+12",
     specs: {
         screen: "6.78 inch LTPO AMOLED",
         processor: "Snapdragon 8 Gen 3",
@@ -318,7 +318,7 @@ export const PRODUCTS: Product[] = [
     features: ["IP68 Rating", "Samsung Ecosystem", "Telephoto Lens"],
     description: "The entry point to the premium Galaxy S series experience.",
     imageUrl: "https://m.media-amazon.com/images/I/71qGismu6JL._AC_SL1500_.jpg",
-    affiliateLink: "https://www.amazon.in/dp/B0CJ4V3C3N",
+    affiliateLink: "https://www.amazon.in/s?k=Samsung+Galaxy+S23+FE",
     specs: {
         screen: "6.4 inch Dynamic AMOLED 2X",
         processor: "Exynos 2200",
@@ -337,7 +337,7 @@ export const PRODUCTS: Product[] = [
     features: ["Slim Design", "Aura Light", "Zeiss Portraits"],
     description: "Focuses entirely on portrait photography with studio-quality lighting effects.",
     imageUrl: "https://m.media-amazon.com/images/I/61Ite8s7H6L._AC_SL1200_.jpg",
-    affiliateLink: "https://www.amazon.in/dp/B0CX81D7G4",
+    affiliateLink: "https://www.amazon.in/s?k=Vivo+V30+Pro",
     specs: {
         screen: "6.78 inch AMOLED",
         processor: "Dimensity 8200",
@@ -356,7 +356,7 @@ export const PRODUCTS: Product[] = [
     features: ["Reliable", "Video Quality", "iOS", "Compact"],
     description: "The most popular entry-level iPhone in India. Still performs flawlessly.",
     imageUrl: "https://m.media-amazon.com/images/I/71xb2xkN5qL._AC_SL1500_.jpg",
-    affiliateLink: "https://www.amazon.in/dp/B09G9D8KRQ",
+    affiliateLink: "https://www.amazon.in/s?k=iPhone+13",
     specs: {
         screen: "6.1 inch Super Retina XDR",
         processor: "A15 Bionic",
@@ -375,7 +375,7 @@ export const PRODUCTS: Product[] = [
     features: ["Action Mode", "Crash Detection", "iOS 18"],
     description: "A solid upgrade over the 13 with better cameras and crash detection features.",
     imageUrl: "https://m.media-amazon.com/images/I/61bK6PMOC3L._AC_SL1500_.jpg",
-    affiliateLink: "https://www.amazon.in/dp/B0BDK62PDX",
+    affiliateLink: "https://www.amazon.in/s?k=iPhone+14",
     specs: {
         screen: "6.1 inch Super Retina XDR",
         processor: "A15 Bionic (5-core GPU)",
@@ -394,7 +394,7 @@ export const PRODUCTS: Product[] = [
     features: ["Premium Build", "Knox Security", "Good Cameras"],
     description: "Metal frame and glass back make this feel like a flagship S-series phone.",
     imageUrl: "https://m.media-amazon.com/images/I/71J8-sM67aL._AC_SL1500_.jpg",
-    affiliateLink: "https://www.amazon.in/dp/B0CXJ37M5M",
+    affiliateLink: "https://www.amazon.in/s?k=Samsung+Galaxy+A55+5G",
     specs: {
         screen: "6.6 inch Super AMOLED 120Hz",
         processor: "Exynos 1480",
@@ -415,7 +415,7 @@ export const PRODUCTS: Product[] = [
     features: ["Super AMOLED Plus", "Big Battery", "Budget 5G"],
     description: "A reliable mid-range choice for Indian users looking for a great screen and battery life.",
     imageUrl: "https://m.media-amazon.com/images/I/81D2a2y+l+L._AC_SL1500_.jpg",
-    affiliateLink: "https://www.amazon.in/dp/B0CYQ3N12Y",
+    affiliateLink: "https://www.amazon.in/s?k=Samsung+Galaxy+M55",
     specs: {
       screen: "6.7 inch Super AMOLED Plus",
       processor: "Snapdragon 7 Gen 1",
@@ -434,7 +434,7 @@ export const PRODUCTS: Product[] = [
     features: ["Brightest Display", "Fast Performance", "Mirror Design"],
     description: "Features one of the brightest displays on a smartphone and top-tier mid-range performance.",
     imageUrl: "https://m.media-amazon.com/images/I/71+4R4kE+lL._AC_SL1500_.jpg",
-    affiliateLink: "https://www.amazon.in/dp/B0D3X63G3Y",
+    affiliateLink: "https://www.amazon.in/s?k=Realme+GT+6T",
     specs: {
         screen: "6.78 inch LTPO AMOLED 6000 nits",
         processor: "Snapdragon 7+ Gen 3",
@@ -472,7 +472,7 @@ export const PRODUCTS: Product[] = [
     features: ["200MP Camera", "Curved Screen", "IP68", "Fast Charging"],
     description: "Looks and feels like a flagship with a curved screen and vegan leather back.",
     imageUrl: "https://m.media-amazon.com/images/I/81577+2s7FL._AC_SL1500_.jpg",
-    affiliateLink: "https://www.amazon.in/dp/B0CQG5P2R5",
+    affiliateLink: "https://www.amazon.in/s?k=Redmi+Note+13+Pro+",
     specs: {
         screen: "6.67 inch Curved AMOLED",
         processor: "Dimensity 7200 Ultra",
@@ -510,7 +510,7 @@ export const PRODUCTS: Product[] = [
     features: ["100W Charging", "Smooth UI", "Good Battery"],
     description: "A no-nonsense phone that charges incredibly fast and lasts all day.",
     imageUrl: "https://m.media-amazon.com/images/I/61abLrCfF7L._AC_SL1500_.jpg",
-    affiliateLink: "https://www.amazon.in/dp/B0CX1V6V31",
+    affiliateLink: "https://www.amazon.in/s?k=OnePlus+Nord+CE+4",
     specs: {
         screen: "6.7 inch AMOLED 120Hz",
         processor: "Snapdragon 7 Gen 3",
@@ -529,7 +529,7 @@ export const PRODUCTS: Product[] = [
     features: ["Periscope Zoom", "Luxury Watch Design", "Curved Display"],
     description: "Brings flagship-grade zoom capabilities to the mid-range segment.",
     imageUrl: "https://m.media-amazon.com/images/I/81+5Q7s7m+L._AC_SL1500_.jpg",
-    affiliateLink: "https://www.amazon.in/dp/B0CSK69K2D",
+    affiliateLink: "https://www.amazon.in/s?k=Realme+12+Pro+",
     specs: {
         screen: "6.7 inch Curved AMOLED",
         processor: "Snapdragon 7s Gen 2",
@@ -588,7 +588,7 @@ export const PRODUCTS: Product[] = [
     features: ["6000mAh Battery", "Gorilla Glass Victus+", "Reliable"],
     description: "The battery monster. Ideally suited for heavy users who don't want to charge often.",
     imageUrl: "https://m.media-amazon.com/images/I/818a-pz0BvL._AC_SL1500_.jpg",
-    affiliateLink: "https://www.amazon.in/dp/B0D8158W4R",
+    affiliateLink: "https://www.amazon.in/s?k=Samsung+Galaxy+M35+5G",
     specs: {
         screen: "6.6 inch Super AMOLED",
         processor: "Exynos 1380",
@@ -607,7 +607,7 @@ export const PRODUCTS: Product[] = [
     features: ["Affordable 5G", "Star Trail Design", "Basic Daily Driver"],
     description: "One of the most affordable 5G smartphones in India.",
     imageUrl: "https://m.media-amazon.com/images/I/813sVzTfvaL._AC_SL1500_.jpg",
-    affiliateLink: "https://www.amazon.in/dp/B0CNX6WFM6",
+    affiliateLink: "https://www.amazon.in/s?k=Redmi+13C+5G",
     specs: {
         screen: "6.74 inch HD+ 90Hz",
         processor: "Dimensity 6100+",
@@ -626,7 +626,7 @@ export const PRODUCTS: Product[] = [
     features: ["sAMOLED", "4 Android Updates", "6000mAh"],
     description: "Unbeatable software support and battery life in the budget segment.",
     imageUrl: "https://m.media-amazon.com/images/I/71E5zB1qbIL._AC_SL1500_.jpg",
-    affiliateLink: "https://www.amazon.in/dp/B0CYQ2C8L7",
+    affiliateLink: "https://www.amazon.in/s?k=Samsung+Galaxy+M15+5G",
     specs: {
         screen: "6.5 inch Super AMOLED",
         processor: "Dimensity 6100+",
@@ -645,7 +645,7 @@ export const PRODUCTS: Product[] = [
     features: ["Fastest in Segment", "Sony Camera", "Slim"],
     description: "Best performing phone under 20k with a surprisingly good main camera.",
     imageUrl: "https://m.media-amazon.com/images/I/71Ex8c-9T2L._AC_SL1500_.jpg",
-    affiliateLink: "https://www.amazon.in/dp/B0CX8X1X17",
+    affiliateLink: "https://www.amazon.in/s?k=iQOO+Z9",
     specs: {
         screen: "6.67 inch AMOLED 120Hz",
         processor: "Dimensity 7200",
@@ -702,7 +702,7 @@ export const PRODUCTS: Product[] = [
     features: ["Super AMOLED", "Knox Security", "Good Updates"],
     description: "The classic reliable Samsung choice for budget buyers.",
     imageUrl: "https://m.media-amazon.com/images/I/71L2iW0-bJL._AC_SL1500_.jpg",
-    affiliateLink: "https://www.amazon.in/dp/B0CS5P2P6Y",
+    affiliateLink: "https://www.amazon.in/s?k=Samsung+Galaxy+A15+5G",
     specs: {
         screen: "6.5 inch Super AMOLED 90Hz",
         processor: "Dimensity 6100+",

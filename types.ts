@@ -30,6 +30,7 @@ export interface Message {
   text: string;
   isThinking?: boolean;
   relatedProducts?: Product[];
+  usedFilters?: SearchFilters;
 }
 
 export interface SearchFilters {

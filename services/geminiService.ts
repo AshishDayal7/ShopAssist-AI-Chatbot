@@ -56,6 +56,7 @@ export const initializeChat = () => {
 export interface ChatResponse {
   text: string;
   relatedProducts?: Product[];
+  usedFilters?: SearchFilters;
 }
 
 export const sendMessageToGemini = async (message: string): Promise<ChatResponse> => {
@@ -64,6 +65,7 @@ export const sendMessageToGemini = async (message: string): Promise<ChatResponse
   }
 
   let foundProducts: Product[] = [];
+  let currentFilters: SearchFilters | undefined;
 
   try {
     // 1. Send user message
@@ -79,6 +81,7 @@ export const sendMessageToGemini = async (message: string): Promise<ChatResponse
       if (call.name === "searchProducts") {
         const args = call.args as unknown as SearchFilters;
         console.log("Agent Calling Tool: searchProducts with", args);
+        currentFilters = args;
         
         // Execute Tool
         const products = searchProducts(args);
@@ -112,7 +115,8 @@ export const sendMessageToGemini = async (message: string): Promise<ChatResponse
 
     return {
       text: result.text || "I'm having trouble connecting to the database right now.",
-      relatedProducts: foundProducts.length > 0 ? foundProducts : undefined
+      relatedProducts: foundProducts.length > 0 ? foundProducts : undefined,
+      usedFilters: currentFilters
     };
 
   } catch (error) {

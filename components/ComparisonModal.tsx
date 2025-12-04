@@ -36,9 +36,9 @@ export const ComparisonModal: React.FC<ComparisonModalProps> = ({ products, onCl
                 <th className="p-4 text-left min-w-[150px] bg-white sticky left-0 z-20 border-b border-gray-200 shadow-[4px_0_8px_-4px_rgba(0,0,0,0.05)]">
                   <span className="font-semibold text-gray-400 uppercase tracking-wider text-xs">Product Details</span>
                 </th>
-                {products.map(p => (
+                {products.map((p, idx) => (
                   <th key={p.id} className="p-4 min-w-[280px] w-[280px] bg-white border-b border-gray-200 align-top group hover:bg-gray-50 transition-colors">
-                    <div className="flex flex-col items-center text-center">
+                    <div className="flex flex-col items-center text-center animate-slide-up" style={{ animationDelay: `${idx * 100}ms`, animationFillMode: 'both' }}>
                        <div className="relative h-32 w-32 mb-3">
                          <img 
                             src={p.imageUrl} 

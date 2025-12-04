@@ -1,16 +1,17 @@
 import React, { useRef, useState, useEffect } from 'react';
-import { Message, Sender, Product } from '../types';
+import { Message, Sender, Product, SearchFilters } from '../types';
 import { ProductCard } from './ProductCard';
-import { Bot, User, Sparkles, ChevronLeft, ChevronRight } from 'lucide-react';
+import { Bot, User, Sparkles, ChevronLeft, ChevronRight, BookmarkPlus } from 'lucide-react';
 import ReactMarkdown from 'react-markdown';
 
 interface ChatMessageProps {
   message: Message;
   selectedProductIds: string[];
   onToggleProduct: (product: Product) => void;
+  onSaveSearch?: (filters: SearchFilters) => void;
 }
 
-export const ChatMessage: React.FC<ChatMessageProps> = ({ message, selectedProductIds, onToggleProduct }) => {
+export const ChatMessage: React.FC<ChatMessageProps> = ({ message, selectedProductIds, onToggleProduct, onSaveSearch }) => {
   const isBot = message.role === Sender.BOT;
   const scrollContainerRef = useRef<HTMLDivElement>(null);
   const [showLeftArrow, setShowLeftArrow] = useState(false);
@@ -62,18 +63,32 @@ export const ChatMessage: React.FC<ChatMessageProps> = ({ message, selectedProdu
 
         <div className="flex flex-col overflow-hidden w-full relative">
             {/* Bubble */}
-            <div className={`p-4 rounded-2xl shadow-sm text-sm md:text-base leading-relaxed ${
+            <div className={`p-4 rounded-2xl shadow-sm text-sm md:text-base leading-relaxed relative ${
                 isBot 
                 ? 'bg-white text-gray-800 border border-gray-100 rounded-tl-none' 
                 : 'bg-indigo-600 text-white rounded-tr-none shadow-md'
             }`}>
+               
+               {/* Save Search Button for Bot messages with filters */}
+               {isBot && message.usedFilters && onSaveSearch && (
+                 <div className="absolute top-2 right-2">
+                   <button 
+                    onClick={() => onSaveSearch(message.usedFilters!)}
+                    title="Save this search"
+                    className="p-1.5 text-gray-400 hover:text-indigo-600 hover:bg-indigo-50 rounded-full transition-colors"
+                   >
+                     <BookmarkPlus size={16} />
+                   </button>
+                 </div>
+               )}
+
                {message.isThinking ? (
                    <div className="flex space-x-2 items-center text-gray-500 animate-pulse py-1">
                        <Sparkles size={16} className="text-indigo-400" />
                        <span className="font-medium">Analyzing market data...</span>
                    </div>
                ) : (
-                 <div className="markdown-body">
+                 <div className="markdown-body pr-6">
                    <ReactMarkdown 
                     components={{
                         ul: ({node, ...props}) => <ul className="list-disc pl-4 mb-2 space-y-1" {...props} />,
@@ -110,12 +125,14 @@ export const ChatMessage: React.FC<ChatMessageProps> = ({ message, selectedProdu
                         onScroll={checkScroll}
                         className="flex space-x-4 px-4 overflow-x-auto scrollbar-hide pb-2 scroll-smooth"
                      >
-                        {message.relatedProducts.map(product => (
+                        {message.relatedProducts.map((product, idx) => (
                             <ProductCard 
                                 key={product.id} 
                                 product={product} 
+                                index={idx}
                                 isSelected={selectedProductIds.includes(product.id)}
                                 onToggleSelect={onToggleProduct}
+                                highlightTags={message.usedFilters?.features || []}
                             />
                         ))}
                      </div>
