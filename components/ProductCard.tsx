@@ -11,17 +11,18 @@ interface ProductCardProps {
 }
 
 const BRAND_LOGOS: Record<string, string> = {
-  Samsung: "https://upload.wikimedia.org/wikipedia/commons/2/24/Samsung_Logo.svg",
+  Samsung: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Samsung_Orig_Wordmark_BLACK_RGB.png/640px-Samsung_Orig_Wordmark_BLACK_RGB.png",
   Apple: "https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg",
   Google: "https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg",
-  OnePlus: "https://upload.wikimedia.org/wikipedia/commons/f/f8/OnePlus_logo.svg",
-  Xiaomi: "https://upload.wikimedia.org/wikipedia/commons/a/ae/Xiaomi_logo_%282021-%29.svg",
-  Realme: "https://upload.wikimedia.org/wikipedia/commons/1/1d/Realme_logo.png",
-  Motorola: "https://upload.wikimedia.org/wikipedia/commons/4/41/Motorola_M_symbol_black.svg",
+  OnePlus: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/OP_LU_Reg_1L_RGB_red_copy-01.svg/640px-OP_LU_Reg_1L_RGB_red_copy-01.svg.png",
+  Xiaomi: "https://upload.wikimedia.org/wikipedia/commons/2/29/Xiaomi_logo.svg",
+  Realme: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Realme_logo.png/640px-Realme_logo.png",
+  Motorola: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Motorola_new_logo.svg/960px-Motorola_new_logo.svg.png?20250526033918",
   Vivo: "https://upload.wikimedia.org/wikipedia/commons/e/e5/Vivo_mobile_logo.png",
-  Poco: "https://upload.wikimedia.org/wikipedia/commons/b/b8/POCO_Symbol.svg",
-  Nothing: "https://upload.wikimedia.org/wikipedia/commons/e/ec/Nothing_%28technology_company%29_Logo.svg",
-  iQOO: "https://upload.wikimedia.org/wikipedia/commons/3/30/IQOO_logo.png"
+  Poco: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Poco_Smartphone_Company_logo.png/640px-Poco_Smartphone_Company_logo.png",
+  Nothing: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Nothing_OS_wordmark.svg/640px-Nothing_OS_wordmark.svg.png",
+  iQOO: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/IQOO_logo.svg/640px-IQOO_logo.svg.png",
+  Honor: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Huawei_Honor_Logo.svg/640px-Huawei_Honor_Logo.svg.png"
 };
 
 export const ProductCard: React.FC<ProductCardProps> = ({ product, isSelected = false, onToggleSelect, highlightTags = [], index = 0 }) => {
@@ -87,6 +88,10 @@ export const ProductCard: React.FC<ProductCardProps> = ({ product, isSelected = 
           src={product.imageUrl} 
           alt={product.name} 
           className="w-full h-full object-contain mix-blend-multiply p-4 transform group-hover:scale-105 transition-transform duration-500"
+          onError={(e) => {
+              // Fallback if image fails. Using white background to match mix-blend-multiply better.
+              (e.target as HTMLImageElement).src = 'https://placehold.co/400x400/ffffff/a3a3a3?text=No+Image';
+          }}
         />
         <div className="absolute top-3 right-3 bg-white/90 backdrop-blur-sm px-2.5 py-1 rounded-full text-xs font-bold text-gray-800 border border-gray-200 shadow-sm">
           ₹{product.price.toLocaleString('en-IN')}
@@ -96,13 +101,14 @@ export const ProductCard: React.FC<ProductCardProps> = ({ product, isSelected = 
       <div className="p-4 flex flex-col flex-grow relative">
         <div className="flex justify-between items-start mb-2">
             <div>
-                <div className="flex items-center gap-1.5 mb-1">
-                    {brandLogo && (
-                        <img src={brandLogo} alt={product.brand} className="h-3 w-auto object-contain" />
+                <div className="flex items-center gap-1.5 mb-1 h-4">
+                    {brandLogo ? (
+                        <img src={brandLogo} alt={product.brand} className="h-full w-auto object-contain max-w-[60px]" />
+                    ) : (
+                         <p className="text-xs text-blue-600 font-bold uppercase tracking-wider">{product.brand}</p>
                     )}
-                    <p className="text-xs text-blue-600 font-bold uppercase tracking-wider">{product.brand}</p>
                 </div>
-                <h3 className="font-bold text-gray-900 leading-tight text-lg">{product.name}</h3>
+                <h3 className="font-bold text-gray-900 leading-tight text-lg mt-1">{product.name}</h3>
             </div>
             <div className="flex items-center space-x-1 bg-yellow-50 px-1.5 py-0.5 rounded text-yellow-700 border border-yellow-100 shrink-0 ml-2">
                 <Star size={12} fill="currentColor" />

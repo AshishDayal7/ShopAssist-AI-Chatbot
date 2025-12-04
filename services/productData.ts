@@ -11,7 +11,7 @@ export const PRODUCTS: Product[] = [
     reviews: 1250,
     features: ["AI Camera", "Clean Android", "7 years updates", "Titan M2 Security", "Best Camera"],
     description: "The smartest smartphone with deep Gemini integration and the best still photography camera on the market.",
-    imageUrl: "https://m.media-amazon.com/images/I/6170y27a7uL._AC_SL1500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/410a3ScPotL._SY300_SX300_QL70_FMwebp_.jpg",
     affiliateLink: "https://www.amazon.in/s?k=Pixel+9+Pro",
     specs: {
       screen: "6.7 inch LTPO OLED",
@@ -49,7 +49,7 @@ export const PRODUCTS: Product[] = [
     reviews: 5000,
     features: ["iOS Ecosystem", "Action Button", "Titanium", "FaceID", "Cinematic Video"],
     description: "Apple's flagship with the A18 Pro chip, offering seamless integration with Mac and iPad.",
-    imageUrl: "https://m.media-amazon.com/images/I/71K84j2O8wL._AC_SL1500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/61PBLEFPoKL._SX679_.jpg",
     affiliateLink: "https://www.amazon.in/s?k=iPhone+16+Pro+Max",
     specs: {
       screen: "6.9 inch Super Retina XDR",
@@ -57,6 +57,25 @@ export const PRODUCTS: Product[] = [
       battery: "4600 mAh",
       camera: "48MP Main",
       storage: "256GB - 1TB"
+    }
+  },
+  {
+    id: "p50",
+    name: "Samsung Galaxy Z Fold 6",
+    brand: "Samsung",
+    price: 164999,
+    rating: 4.6,
+    reviews: 150,
+    features: ["Foldable", "Multitasking", "Galaxy AI", "Lightweight"],
+    description: "The most refined foldable yet, thinner and lighter with Galaxy AI features tailored for the big screen.",
+    imageUrl: "https://m.media-amazon.com/images/I/31Nw+Wn6xrL._SY300_SX300_QL70_FMwebp_.jpg",
+    affiliateLink: "https://www.amazon.in/s?k=Samsung+Galaxy+Z+Fold6",
+    specs: {
+        screen: "7.6 inch Dynamic AMOLED 2X",
+        processor: "Snapdragon 8 Gen 3",
+        battery: "4400 mAh",
+        camera: "50MP Triple",
+        storage: "256GB - 1TB"
     }
   },
   {
@@ -87,7 +106,7 @@ export const PRODUCTS: Product[] = [
     reviews: 1200,
     features: ["Leica Optics", "Compact Flagship", "HyperOS", "Fast Charging"],
     description: "A compact powerhouse with Leica co-engineered cameras and top-tier performance.",
-    imageUrl: "https://m.media-amazon.com/images/I/71657TiFeHL._AC_SL1500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/4166f5DXEEL._SY300_SX300_QL70_FMwebp_.jpg",
     affiliateLink: "https://www.amazon.in/s?k=Xiaomi+14",
     specs: {
       screen: "6.36 inch LTPO OLED",
@@ -106,7 +125,7 @@ export const PRODUCTS: Product[] = [
     reviews: 500,
     features: ["Zeiss Optics", "Best Portrait Camera", "Curved Display"],
     description: "Arguably the best camera phone for portraits and low light, co-engineered with Zeiss.",
-    imageUrl: "https://m.media-amazon.com/images/I/611rQWRI5eL._AC_SL1200_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41pml780BoL._SY300_SX300_QL70_FMwebp_.jpg",
     affiliateLink: "https://www.amazon.in/s?k=Vivo+X100+Pro",
     specs: {
         screen: "6.78 inch AMOLED",
@@ -125,8 +144,8 @@ export const PRODUCTS: Product[] = [
     reviews: 300,
     features: ["Foldable", "Multitasking", "No Crease", "Premium Build"],
     description: "The best foldable experience in India right now with a nearly invisible crease.",
-    imageUrl: "https://m.media-amazon.com/images/I/71M5d5-9fBL._AC_SL1500_.jpg",
-    affiliateLink: "https://www.amazon.in/s?k=OnePlus+Open",
+    imageUrl: "https://m.media-amazon.com/images/I/81B4UqMfjeL._SX679_.jpg",
+    affiliateLink: "https://www.amazon.in/Oneplus-Open-Storage-Crimson-Shadow/dp/B0D9W7Y3XM",
     specs: {
         screen: "7.82 inch Flexi-fluid AMOLED",
         processor: "Snapdragon 8 Gen 2",
@@ -144,7 +163,7 @@ export const PRODUCTS: Product[] = [
     reviews: 200,
     features: ["Foldable", "Compact", "Galaxy AI", "Flex Mode"],
     description: "The most stylish foldable phone that fits in any pocket, now with improved cameras and durability.",
-    imageUrl: "https://m.media-amazon.com/images/I/61N+U+YtK+L._AC_SL1500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31jykUGQ5AL._SY300_SX300_QL70_FMwebp_.jpg",
     affiliateLink: "https://www.amazon.in/s?k=Samsung+Galaxy+Z+Flip6",
     specs: {
         screen: "6.7 inch Dynamic AMOLED 2X",
@@ -163,7 +182,7 @@ export const PRODUCTS: Product[] = [
     reviews: 150,
     features: ["Foldable", "Largest Cover Screen", "Pantone Colors"],
     description: "Features a massive external display that lets you run full apps without opening the phone.",
-    imageUrl: "https://m.media-amazon.com/images/I/61F1Wk2+xML._AC_SL1500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/61uzJ0Vc7uL._SX569_.jpg",
     affiliateLink: "https://www.amazon.in/s?k=Motorola+Razr+50+Ultra",
     specs: {
         screen: "6.9 inch pOLED 165Hz",
@@ -182,7 +201,7 @@ export const PRODUCTS: Product[] = [
     reviews: 1100,
     features: ["Compact Flagship", "Galaxy AI", "7 years updates"],
     description: "A true compact flagship that doesn't compromise on power or build quality.",
-    imageUrl: "https://m.media-amazon.com/images/I/71CXhVHPM0L._AC_SL1500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41h2alWH8ML._SY300_SX300_QL70_FMwebp_.jpg",
     affiliateLink: "https://www.amazon.in/s?k=Samsung+Galaxy+S24",
     specs: {
         screen: "6.2 inch Dynamic AMOLED 2X",
@@ -213,6 +232,101 @@ export const PRODUCTS: Product[] = [
   },
   
   // --- PREMIUM MID-RANGE (30k - 60k) ---
+  {
+    id: "p51",
+    name: "Motorola Edge 50 Ultra",
+    brand: "Motorola",
+    price: 54999,
+    rating: 4.5,
+    reviews: 400,
+    features: ["Wood Finish", "125W Charging", "Telephoto", "Pantone"],
+    description: "A masterpiece of design with real wood or vegan leather backs and powerful internals.",
+    imageUrl: "https://m.media-amazon.com/images/I/71L5l40M+JL._AC_SL1500_.jpg",
+    affiliateLink: "https://www.amazon.in/s?k=Motorola+Edge+50+Ultra",
+    specs: {
+        screen: "6.7 inch pOLED 144Hz",
+        processor: "Snapdragon 8s Gen 3",
+        battery: "4500 mAh",
+        camera: "50MP + 64MP Telephoto",
+        storage: "512GB"
+    }
+  },
+  {
+    id: "p52",
+    name: "Xiaomi 14 Civi",
+    brand: "Xiaomi",
+    price: 42999,
+    rating: 4.4,
+    reviews: 650,
+    features: ["Cinematic Vision", "Dual Selfie Camera", "Premium Design"],
+    description: "Brings the Leica magic and a quad-curved display to a more accessible price point.",
+    imageUrl: "https://m.media-amazon.com/images/I/71M3+aC2sIL._AC_SL1500_.jpg",
+    affiliateLink: "https://www.amazon.in/s?k=Xiaomi+14+Civi",
+    specs: {
+        screen: "6.55 inch AMOLED 120Hz",
+        processor: "Snapdragon 8s Gen 3",
+        battery: "4700 mAh",
+        camera: "50MP Leica Triple",
+        storage: "256GB - 512GB"
+    }
+  },
+  {
+    id: "p53",
+    name: "Honor 200 Pro",
+    brand: "Honor",
+    price: 57999,
+    rating: 4.3,
+    reviews: 300,
+    features: ["Harcourt Portrait", "Eye Comfort Display", "Unique Design"],
+    description: "Specializes in studio-level portraits with its Harcourt partnership.",
+    imageUrl: "https://m.media-amazon.com/images/I/71fVoqRC0wL._AC_SL1500_.jpg",
+    affiliateLink: "https://www.amazon.in/s?k=Honor+200+Pro",
+    specs: {
+        screen: "6.78 inch AMOLED",
+        processor: "Snapdragon 8s Gen 3",
+        battery: "5200 mAh",
+        camera: "50MP Triple",
+        storage: "512GB"
+    }
+  },
+  {
+    id: "p54",
+    name: "Vivo V40 Pro",
+    brand: "Vivo",
+    price: 49999,
+    rating: 4.5,
+    reviews: 550,
+    features: ["Zeiss All Main", "Slim 5500mAh", "Portrait Master"],
+    description: "Incredibly slim phone despite packing a massive battery, with Zeiss optics on all cameras.",
+    imageUrl: "https://m.media-amazon.com/images/I/61C2k6q+u+L._AC_SL1200_.jpg",
+    affiliateLink: "https://www.amazon.in/s?k=Vivo+V40+Pro",
+    specs: {
+        screen: "6.78 inch AMOLED",
+        processor: "Dimensity 9200+",
+        battery: "5500 mAh",
+        camera: "50MP Quad Zeiss",
+        storage: "256GB - 512GB"
+    }
+  },
+  {
+    id: "p55",
+    name: "iQOO Neo 9 Pro",
+    brand: "iQOO",
+    price: 35999,
+    rating: 4.6,
+    reviews: 1800,
+    features: ["Dual Chip", "Flagship Performance", "Leather Design"],
+    description: "Features the flagship Snapdragon 8 Gen 2 chip at a mid-range price. Unbeatable value.",
+    imageUrl: "https://m.media-amazon.com/images/I/71O1Q5e5PeL._AC_SL1200_.jpg",
+    affiliateLink: "https://www.amazon.in/s?k=iQOO+Neo+9+Pro",
+    specs: {
+        screen: "6.78 inch LTPO AMOLED 144Hz",
+        processor: "Snapdragon 8 Gen 2",
+        battery: "5160 mAh",
+        camera: "50MP Sony IMX920",
+        storage: "128GB - 256GB"
+    }
+  },
   {
     id: "p5",
     name: "Pixel 8a",
@@ -271,6 +385,25 @@ export const PRODUCTS: Product[] = [
     }
   },
   {
+    id: "p40",
+    name: "OnePlus 11R",
+    brand: "OnePlus",
+    price: 32999,
+    rating: 4.5,
+    reviews: 3500,
+    features: ["Value Flagship", "Curved Display", "Fast Charging"],
+    description: "Former flagship killer that is still excellent value for money.",
+    imageUrl: "https://m.media-amazon.com/images/I/613SAOPmLeL._AC_SL1500_.jpg",
+    affiliateLink: "https://www.amazon.in/s?k=OnePlus+11R",
+    specs: {
+        screen: "6.74 inch AMOLED 120Hz",
+        processor: "Snapdragon 8+ Gen 1",
+        battery: "5000 mAh",
+        camera: "50MP Sony IMX890",
+        storage: "128GB - 256GB"
+    }
+  },
+  {
     id: "p11",
     name: "iQOO 12",
     brand: "iQOO",
@@ -324,6 +457,25 @@ export const PRODUCTS: Product[] = [
         processor: "Exynos 2200",
         battery: "4500 mAh",
         camera: "50MP + 8MP Telephoto",
+        storage: "128GB - 256GB"
+    }
+  },
+  {
+    id: "p41",
+    name: "Samsung Galaxy A35 5G",
+    brand: "Samsung",
+    price: 27999,
+    rating: 4.3,
+    reviews: 900,
+    features: ["Glass Back", "Knox Vault", "Super AMOLED"],
+    description: "Premium build quality and security features trickle down to the mid-range.",
+    imageUrl: "https://m.media-amazon.com/images/I/717Xj2F92+L._AC_SL1500_.jpg",
+    affiliateLink: "https://www.amazon.in/s?k=Samsung+Galaxy+A35",
+    specs: {
+        screen: "6.6 inch Super AMOLED 120Hz",
+        processor: "Exynos 1380",
+        battery: "5000 mAh",
+        camera: "50MP OIS",
         storage: "128GB - 256GB"
     }
   },
@@ -405,6 +557,63 @@ export const PRODUCTS: Product[] = [
   },
 
   // --- MID-RANGE (20k - 30k) ---
+  {
+    id: "p56",
+    name: "OnePlus Nord 4",
+    brand: "OnePlus",
+    price: 29999,
+    rating: 4.5,
+    reviews: 900,
+    features: ["Metal Unibody", "6 Years Support", "AI Eraser"],
+    description: "The only modern 5G phone with a full metal unibody design. Robust and fast.",
+    imageUrl: "https://m.media-amazon.com/images/I/611ki6093XL._AC_SL1500_.jpg",
+    affiliateLink: "https://www.amazon.in/s?k=OnePlus+Nord+4",
+    specs: {
+        screen: "6.74 inch AMOLED 120Hz",
+        processor: "Snapdragon 7+ Gen 3",
+        battery: "5500 mAh",
+        camera: "50MP Sony LYT-600",
+        storage: "128GB - 256GB"
+    }
+  },
+  {
+    id: "p57",
+    name: "Realme 13 Pro+",
+    brand: "Realme",
+    price: 32999,
+    rating: 4.4,
+    reviews: 400,
+    features: ["AI Hyperimage", "Monet Gold", "Periscope"],
+    description: "Focuses on art and photography with a Monet-inspired design and powerful zoom cameras.",
+    imageUrl: "https://m.media-amazon.com/images/I/71Y9+1N3kQL._AC_SL1500_.jpg",
+    affiliateLink: "https://www.amazon.in/s?k=Realme+13+Pro+",
+    specs: {
+        screen: "6.7 inch Curved AMOLED",
+        processor: "Snapdragon 7s Gen 2",
+        battery: "5200 mAh",
+        camera: "50MP Sony LYT-701",
+        storage: "256GB - 512GB"
+    }
+  },
+  {
+    id: "p42",
+    name: "Poco X6 Pro",
+    brand: "Poco",
+    price: 25999,
+    rating: 4.6,
+    reviews: 2800,
+    features: ["Performance King", "HyperOS", "Gaming"],
+    description: "The absolute best performance you can get under 30k. A beast for gaming.",
+    imageUrl: "https://m.media-amazon.com/images/I/51+s0-j69cL._AC_SL1000_.jpg",
+    affiliateLink: "https://www.amazon.in/s?k=Poco+X6+Pro",
+    specs: {
+        screen: "6.67 inch 1.5K AMOLED 120Hz",
+        processor: "Dimensity 8300 Ultra",
+        battery: "5000 mAh",
+        camera: "64MP OIS",
+        storage: "256GB - 512GB"
+    }
+  },
   {
     id: "p8",
     name: "Samsung Galaxy M55",
@@ -557,6 +766,25 @@ export const PRODUCTS: Product[] = [
         storage: "128GB - 256GB"
     }
   },
+  {
+    id: "p58",
+    name: "Motorola Edge 50 Neo",
+    brand: "Motorola",
+    price: 23999,
+    rating: 4.3,
+    reviews: 500,
+    features: ["Compact", "Military Grade", "5 Years Updates", "Sony Lytia"],
+    description: "A compact powerhouse with military-grade durability and long-term software support.",
+    imageUrl: "https://m.media-amazon.com/images/I/71Y+w2+g7+L._AC_SL1500_.jpg",
+    affiliateLink: "https://www.amazon.in/s?k=Motorola+Edge+50+Neo",
+    specs: {
+        screen: "6.4 inch pOLED 120Hz",
+        processor: "Dimensity 7300",
+        battery: "4310 mAh",
+        camera: "50MP Sony LYT-700C",
+        storage: "256GB"
+    }
+  },
 
   // --- BUDGET (Under 20k) ---
   {
@@ -663,7 +891,7 @@ export const PRODUCTS: Product[] = [
     reviews: 8000,
     features: ["Super Budget", "Big Screen", "Glass Back"],
     description: "An excellent choice for first-time smartphone buyers on a strict budget.",
-    imageUrl: "https://m.media-amazon.com/images/I/510R20R0wVL._AC_SL1500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51Z-W3yN9AL._AC_SL1000_.jpg",
     affiliateLink: "https://www.amazon.in/s?k=POCO+C65",
     specs: {
         screen: "6.74 inch HD+ 90Hz",
@@ -690,6 +918,25 @@ export const PRODUCTS: Product[] = [
         battery: "5000 mAh",
         camera: "50MP OIS",
         storage: "128GB"
+    }
+  },
+  {
+    id: "p43",
+    name: "Moto G64 5G",
+    brand: "Motorola",
+    price: 14999,
+    rating: 4.1,
+    reviews: 1600,
+    features: ["Big Battery", "OIS Camera", "Stereo Speakers"],
+    description: "A solid all-rounder with a massive 6000mAh battery and OIS camera.",
+    imageUrl: "https://m.media-amazon.com/images/I/71N7+2+jRLL._AC_SL1500_.jpg",
+    affiliateLink: "https://www.amazon.in/s?k=Moto+G64+5G",
+    specs: {
+        screen: "6.5 inch IPS LCD 120Hz",
+        processor: "Dimensity 7025",
+        battery: "6000 mAh",
+        camera: "50MP OIS",
+        storage: "128GB - 256GB"
     }
   },
   {
