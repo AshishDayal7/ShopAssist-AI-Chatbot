@@ -22,7 +22,10 @@ const BRAND_LOGOS: Record<string, string> = {
   Poco: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Poco_Smartphone_Company_logo.png/640px-Poco_Smartphone_Company_logo.png",
   Nothing: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Nothing_OS_wordmark.svg/640px-Nothing_OS_wordmark.svg.png",
   iQOO: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/IQOO_logo.svg/640px-IQOO_logo.svg.png",
-  Honor: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Huawei_Honor_Logo.svg/640px-Huawei_Honor_Logo.svg.png"
+  Honor: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Huawei_Honor_Logo.svg/640px-Huawei_Honor_Logo.svg.png",
+  Oppo: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/OPPO_Logo.svg/640px-OPPO_Logo.svg.png",
+  Lava: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Lava_International.svg/640px-Lava_International.svg.png",
+  Tecno: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Tecno_Mobile_logo.svg/1280px-Tecno_Mobile_logo.svg.png"
 };
 
 export const ProductCard: React.FC<ProductCardProps> = ({ product, isSelected = false, onToggleSelect, highlightTags = [], index = 0 }) => {
