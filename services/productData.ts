@@ -680,7 +680,7 @@ export const PRODUCTS: Product[] = [
     reviews: 2100,
     features: ["Super AMOLED Plus", "Big Battery", "Budget 5G"],
     description: "A reliable mid-range choice for Indian users looking for a great screen and battery life.",
-    imageUrl: "https://m.media-amazon.com/images/I/81D2a2y+l+L._AC_SL1500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41bbNrwkZUL._SY300_SX300_QL70_FMwebp_.jpg",
     affiliateLink: "https://www.amazon.in/s?k=Samsung+Galaxy+M55",
     specs: {
       screen: "6.7 inch Super AMOLED Plus",
