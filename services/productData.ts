@@ -49,7 +49,7 @@ export const PRODUCTS: Product[] = [
     reviews: 850,
     features: ["Galaxy AI", "QHD+ Display", "7 years updates", "Great Battery"],
     description: "The perfect balance of size and power in the Galaxy S24 lineup, featuring a sharp QHD+ display.",
-    imageUrl: "https://m.media-amazon.com/images/I/71optu6jY7L._SX679_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41APppcMtxL._SY300_SX300_QL70_FMwebp_.jpg",
     affiliateLink: "https://www.amazon.in/s?k=Samsung+Galaxy+S24+Plus",
     specs: {
       screen: "6.7 inch Dynamic AMOLED 2X",
