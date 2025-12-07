@@ -2,7 +2,10 @@
 
 **ShopAssist AI** is an intelligent, multi-brand AI shopping assistant designed to help users in the Indian market find the perfect smartphone for their needs. It leverages the power of Google's Gemini API with Function Calling to provide impartial, data-driven recommendations in a user-friendly conversational interface.
 
-![ShopAssist AI Deployed Link](https://shop-assist-ai-chatbot.vercel.app/))
+<a href="https://shop-assist-ai-chatbot.vercel.app/">ShopAssist AI Chatbot</a>
+
+
+
 
 ## Core Idea
 
